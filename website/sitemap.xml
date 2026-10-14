@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.newbloomgardens.co.uk/</loc><lastmod>2026-10-14</lastmod><priority>1.0</priority></url>
-  <url><loc>https://www.newbloomgardens.co.uk/commercial.html</loc><lastmod>2026-10-14</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.newbloomgardens.co.uk/book.html</loc><lastmod>2026-10-14</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.newbloomgardens.co.uk/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://www.newbloomgardens.co.uk/commercial.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://www.newbloomgardens.co.uk/book.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://www.newbloomgardens.co.uk/garden-maintenance-chelmsford.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://www.newbloomgardens.co.uk/garden-clearance-chelmsford.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://www.newbloomgardens.co.uk/lawn-care-chelmsford.html</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://www.newbloomgardens.co.uk/hedge-cutting-chelmsford.html</loc><lastmod>2026-10-14</lastmod></url>
 </urlset>
