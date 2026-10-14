@@ -11,9 +11,9 @@ Log in at **business.google.com** and work through this checklist.
 - [ ] **Business name:** `New Bloom Gardens`. Don't add keywords like "New Bloom Gardens – Gardener Essex"; Google can suspend profiles for that.
 - [ ] **Primary category:** `Gardener`
 - [ ] **Additional categories:** add whichever of these appear in Google's list and match work you actually do: `Lawn care service`, `Landscaper`, `Hedge trimming service`, `Tree service`
-- [ ] **Service-area business:** hide your home address and list up to 20 service areas. Suggested list (adjust to your base):
-  - **Essex:** Chelmsford, Brentwood, Basildon, Billericay, Wickford, Romford, Upminster, Hornchurch, Southend-on-Sea, Loughton, Epping
-  - **East London:** Havering, Redbridge, Barking and Dagenham, Waltham Forest, Newham, Ilford, Woodford, Chingford, Leytonstone
+- [ ] **Service-area business:** hide your home address and list up to 20 service areas. Suggested list, starting closest to Chelmsford:
+  - **Essex:** Chelmsford, Great Baddow, Writtle, Danbury, Witham, Maldon, South Woodham Ferrers, Billericay, Brentwood, Basildon, Wickford, Romford, Hornchurch, Upminster
+  - **East London:** Havering, Redbridge, Ilford, Barking and Dagenham, Waltham Forest, Newham
 - [ ] **Hours:** set them accurately, and add "special hours" for bank holidays
 - [ ] **Phone & website:** use `https://www.newbloomgardens.co.uk`, written exactly the same way everywhere
 - [ ] **Services:** add every service as a separate item with a short description (list below)
@@ -28,7 +28,7 @@ Log in at **business.google.com** and work through this checklist.
 >
 > Our services include regular garden maintenance, lawn mowing, hedge cutting, garden clearances, seasonal tidy-ups, communal grounds maintenance and upkeep of empty properties.
 >
-> You get the same team each visit, clear pricing, and before-and-after photos after every job, so you always know the work's been done. Fully insured. Commercial clients receive RAMS and consolidated monthly invoicing.
+> You get the same team each visit, clear pricing, and before-and-after photos after every job, so you always know the work's been done. Fully insured, and we hold an upper-tier waste carrier licence. Commercial clients receive RAMS and consolidated monthly invoicing.
 >
 > Call or message for a free, no-obligation quote.
 

@@ -28,7 +28,7 @@ Keep a simple tracker: `Company | Contact | Email | Phone | Date sent | Follow-u
 
 > Dear [Name],
 >
-> I run New Bloom Gardens, a garden and grounds maintenance company based in [TOWN] covering Essex and East London.
+> I run New Bloom Gardens, a garden and grounds maintenance company based in Chelmsford covering Essex and East London.
 >
 > We help probate and private client teams with a problem that often lands on their desk: **empty properties whose gardens become overgrown while the estate is being administered.** An unkempt garden signals an empty house, attracts complaints from neighbours, and can affect the sale price.
 >
@@ -45,7 +45,7 @@ Keep a simple tracker: `Company | Contact | Email | Phone | Date sent | Follow-u
 > Kind regards,
 > [Your name]
 > New Bloom Gardens
-> [PHONE] · newbloomgardens.co.uk
+> 07504 548304 · newbloomgardens.co.uk
 
 ---
 
@@ -61,7 +61,7 @@ Keep a simple tracker: `Company | Contact | Email | Phone | Date sent | Follow-u
 >
 > - **Photo report after every visit**, so you can answer leaseholders straight away
 > - **The same team at each site**, who learn the site and its residents
-> - **RAMS, insurance certificates** [and waste carrier licence] supplied up front
+> - **RAMS, insurance certificates** and our upper-tier waste carrier licence supplied up front
 > - **One consolidated monthly invoice** across all your sites, with PO numbers welcome
 >
 > If you have any sites in [AREA] where you're reviewing the current contractor, or that are coming up for retender, I'd welcome the chance to quote. I'm also happy to do a free site visit.
@@ -69,17 +69,17 @@ Keep a simple tracker: `Company | Contact | Email | Phone | Date sent | Follow-u
 > Kind regards,
 > [Your name]
 > New Bloom Gardens
-> [PHONE] · newbloomgardens.co.uk
+> 07504 548304 · newbloomgardens.co.uk
 
 ---
 
 ## Template 3: Letting agents / landlords
 
-**Subject:** Fast end-of-tenancy garden tidy-ups in [TOWN]
+**Subject:** Fast end-of-tenancy garden tidy-ups in Chelmsford
 
 > Hi [Name],
 >
-> I'm [Your name] from New Bloom Gardens, a local garden maintenance company in [TOWN].
+> I'm [Your name] from New Bloom Gardens, a local garden maintenance company in Chelmsford.
 >
 > We help letting agents turn properties around quickly between tenancies:
 > - **End-of-tenancy garden tidy-ups**, often within the week
@@ -90,7 +90,7 @@ Keep a simple tracker: `Company | Contact | Email | Phone | Date sent | Follow-u
 >
 > Thanks,
 > [Your name]
-> New Bloom Gardens · [PHONE]
+> New Bloom Gardens · 07504 548304
 
 ---
 
@@ -100,14 +100,14 @@ Keep a simple tracker: `Company | Contact | Email | Phone | Date sent | Follow-u
 
 > Hi [Name],
 >
-> Overgrown front gardens make for poor listing photos. New Bloom Gardens offers quick **pre-sale garden tidy-ups** across [TOWN] and the surrounding area, usually booked within a few days, so properties look their best for photography and viewings.
+> Overgrown front gardens make for poor listing photos. New Bloom Gardens offers quick **pre-sale garden tidy-ups** across Chelmsford and the surrounding area, usually booked within a few days, so properties look their best for photography and viewings.
 >
 > We also look after empty and probate properties on an ongoing basis until completion.
 >
 > Could I drop off a few leaflets you can hand to vendors?
 >
 > Thanks,
-> [Your name] · New Bloom Gardens · [PHONE]
+> [Your name] · New Bloom Gardens · 07504 548304
 
 ---
 
@@ -117,7 +117,7 @@ Keep a simple tracker: `Company | Contact | Email | Phone | Date sent | Follow-u
 > Hi [Name], just checking this reached you. If grounds maintenance is handled by someone else at [Company], I'd be grateful if you could point me in the right direction. Thanks, [Your name]
 
 **Follow-up 2 (10 working days after that)**
-> Hi [Name], I won't keep chasing. If a property ever comes up where a reliable garden contractor would help, we'd be glad to quote. You can reach me on [PHONE]. All the best, [Your name]
+> Hi [Name], I won't keep chasing. If a property ever comes up where a reliable garden contractor would help, we'd be glad to quote. You can reach me on 07504 548304. All the best, [Your name]
 
 ---
 
@@ -146,7 +146,7 @@ Use this for a PDF to attach to emails and leave in person:
 - **Services:** communal grounds · commercial grounds · void & probate properties · clearances · end-of-tenancy
 - **Why us:** photo report every visit · same team · RAMS & insurance supplied · one monthly invoice · quote within 48 hours
 - **Coverage:** Essex & East London (map)
-- **Credentials:** £[X]m public liability · waste carrier licence [no.] · [years] years' experience
+- **Credentials:** £1m public liability · upper-tier waste carrier licence [licence no.] · [years] years' experience
 - **Contact:** name · phone · email · website · QR code to Google reviews
 
 I can design this PDF once you give me the credentials above.

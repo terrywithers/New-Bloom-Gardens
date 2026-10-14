@@ -1,7 +1,7 @@
 # New Bloom Gardens: 90-Day Lead Generation Plan
 
 **Business:** Residential garden maintenance and commercial grounds maintenance
-**Area:** Essex, plus London (East London first)
+**Base:** Chelmsford · **Area:** Essex, plus London (East London first) · **Phone:** 07504 548304
 **Budget:** £0–£50 per month
 **Positioning:** *Honest, reliable, good quality.*
 
@@ -84,7 +84,8 @@ This line works for every type of customer:
 | `04-social-content-calendar.md` | 30 days of ready-to-post Facebook/Instagram content |
 
 ## Things I still need from you
-- [ ] Your exact base town and phone number (marked as `[TOWN]` / `[PHONE]` in the templates)
-- [ ] Your public liability insurance level (e.g. £5m) and whether you hold a waste carrier licence
+- [x] Base town (Chelmsford) and phone number (07504 548304), now filled into the templates
+- [x] Insurance (£1m public liability) and waste licence (upper tier)
+- [ ] Your waste carrier licence number, for the commercial one-pager
 - [ ] Your "new ideas" for the website
 - [ ] Who built and hosts the website (e.g. Wix, Squarespace, WordPress), so I know how changes can be made

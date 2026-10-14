@@ -34,7 +34,7 @@ Home
 
 | Page | Title tag (≤60 chars) | Meta description (≤155 chars) |
 |---|---|---|
-| Home | Garden & Grounds Maintenance Essex & East London | Honest, reliable garden and grounds maintenance across Essex & East London. Photo reports after every visit. Free quotes: call [PHONE]. |
+| Home | Garden & Grounds Maintenance Essex & East London | Honest, reliable garden and grounds maintenance across Essex & East London. Photo reports after every visit. Free quotes: call 07504 548304. |
 | Residential | Garden Maintenance Essex \| New Bloom Gardens | Regular garden maintenance, lawn mowing & hedge cutting in Essex and East London. Same team every visit. Get a free quote today. |
 | Commercial | Commercial Grounds Maintenance Essex & London | Grounds maintenance for offices, estates and commercial sites. Fully insured, RAMS provided, photo reports after every visit. |
 | Block mgmt | Communal Grounds Maintenance for Block Managers | Reliable communal garden maintenance for block & property managers in Essex and East London. Photo reports, one monthly invoice. |
@@ -62,9 +62,9 @@ Home
 - [ ] **Simple quote form:** name, phone, postcode, service, "tell us about the garden", and an optional photo upload
 
 ### For the commercial / block / probate pages specifically
-- [ ] Insurance level (e.g. "£5m public liability")
+- [ ] Insurance level ("£1m public liability")
 - [ ] RAMS available on request
-- [ ] Waste carrier licence number (if held)
+- [ ] Upper-tier waste carrier licence number
 - [ ] How the photo reporting works (screenshot an example)
 - [ ] One monthly invoice; PO numbers welcome
 - [ ] Response time promise, e.g. "Quote within 48 hours, site visit within the week"
@@ -78,7 +78,7 @@ Home
 >
 > Most people come to us after a gardener stopped turning up. We do things differently: the same friendly team every visit, clear prices, and **before-and-after photos sent to you after every job**, so you always know your garden's been done.
 >
-> **[Get a free quote]**  **[Call [PHONE]]**
+> **[Get a free quote]**  **[Call 07504 548304]**
 >
 > **For homeowners:** regular maintenance, lawns, hedges, clearances and seasonal tidy-ups.
 > **For property & block managers:** reliable communal grounds care, with photo reports and one monthly invoice.
