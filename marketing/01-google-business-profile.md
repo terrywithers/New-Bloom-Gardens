@@ -86,7 +86,7 @@ Right after a job when the customer is happy, while they're still looking at the
 
 ### Reply to every review
 - **Good review:** thank them by first name and mention the job and the area, e.g. *"Thanks Sarah, it was a pleasure getting your Chelmsford garden ready for winter."* Naturally mentioning a place and a service helps local search.
-- **Bad review:** reply calmly within 24 hours, don't argue, and take it offline: *"Sorry to hear this, [Name]. Please call me on [PHONE] so I can put it right."*
+- **Bad review:** reply calmly within 24 hours, don't argue, and take it offline: *"Sorry to hear this, [Name]. Please call me on 07504 548304 so I can put it right."*
 
 ### Rules
 - Don't offer discounts or gifts in exchange for reviews (against Google's policy).
