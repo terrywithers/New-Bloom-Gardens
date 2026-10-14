@@ -30,7 +30,7 @@ This line works for every type of customer:
 ## Priority order (do in this order)
 
 ### Week 1: Fix the foundations (Google)
-1. **Check the website is live.** When I tried, `newbloomgardens.co.uk` returned *no DNS record*, and it doesn't appear in Google results. If the domain or hosting has lapsed, **nothing else in this plan matters until it's fixed.** Check with whoever you registered the domain with (e.g. GoDaddy, 123-reg, IONOS, Wix).
+1. **Check the website on your phone.** Make sure `www.newbloomgardens.co.uk` loads quickly, shows the phone number at the top, and has a working quote form. Search Google for `site:newbloomgardens.co.uk`. If nothing comes up, Google hasn't indexed the site yet, so set up Google Search Console (see `02-website-seo.md`).
 2. **Complete your Google Business Profile.** See `01-google-business-profile.md`. This is the single biggest free lead source for a local trade.
 3. **Get 10 Google reviews from existing customers.** Use the scripts in `01-google-business-profile.md`. Reviews make you rank higher *and* convert better.
 
@@ -87,4 +87,4 @@ This line works for every type of customer:
 - [ ] Your exact base town and phone number (marked as `[TOWN]` / `[PHONE]` in the templates)
 - [ ] Your public liability insurance level (e.g. £5m) and whether you hold a waste carrier licence
 - [ ] Your "new ideas" for the website
-- [ ] Whether the website is actually live, and who built/hosts it
+- [ ] Who built and hosts the website (e.g. Wix, Squarespace, WordPress), so I know how changes can be made

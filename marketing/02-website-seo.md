@@ -1,7 +1,5 @@
 # Website & SEO Plan: newbloomgardens.co.uk
 
-> ⚠️ **First:** when checked on 14 Oct 2026 the domain had **no DNS record** (it doesn't load) and it isn't indexed by Google. Confirm the domain registration and hosting are paid and active before anything else.
-
 The website has one job: **turn people who find you on Google into quote requests.** It needs to be quick to load, work well on a phone, and make calling or getting a quote obvious on every page.
 
 ---

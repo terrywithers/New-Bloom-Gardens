@@ -15,7 +15,7 @@ Log in at **business.google.com** and work through this checklist.
   - **Essex:** Chelmsford, Brentwood, Basildon, Billericay, Wickford, Romford, Upminster, Hornchurch, Southend-on-Sea, Loughton, Epping
   - **East London:** Havering, Redbridge, Barking and Dagenham, Waltham Forest, Newham, Ilford, Woodford, Chingford, Leytonstone
 - [ ] **Hours:** set them accurately, and add "special hours" for bank holidays
-- [ ] **Phone & website:** the website must work (see the plan)
+- [ ] **Phone & website:** use `https://www.newbloomgardens.co.uk`, written exactly the same way everywhere
 - [ ] **Services:** add every service as a separate item with a short description (list below)
 - [ ] **Photos:** upload **at least 20** to start, then **2–3 every week**. Before/after photos, the team in uniform, the van and tidy finished jobs. Profiles with lots of recent photos get more clicks.
 - [ ] **Logo & cover photo:** use your logo, and a finished job as the cover
