@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Book a Visit | New Bloom Gardens</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Book a free garden or grounds maintenance quote in Chelmsford, Essex or East London. Two-minute form, fixed price, photo report after every visit.">
+<link rel="canonical" href="https://www.newbloomgardens.co.uk/book.html">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="New Bloom Gardens home"><img src="img/logo.png" alt="New Bloom Gardens" width="120" height="78"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#our-work">Our work</a>
+      <a href="commercial.html">Commercial</a>
+      <a href="index.html#areas">Areas</a>
+    </nav>
+    <div class="header-cta">
+      <a class="header-phone" href="tel:+447504548304">07504 548304</a>
+    </div>
+  </div>
+</header>
+
+<main class="band band--sage">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Book a visit</span>
+      <h1 style="font-size:var(--fs-xl)">Get a fixed price for your garden or site</h1>
+      <div class="rule"></div>
+      <p class="lede">Takes about two minutes. We'll come back to you with a price or a time for a free site visit.</p>
+    </div>
+
+    <div class="book-layout">
+      <!-- To receive submissions by email, set data-endpoint to a Formspree form URL (see README). -->
+      <form class="form" id="booking" name="booking" method="POST" data-endpoint="" novalidate>
+        <div id="form-body" class="stack" style="gap:28px">
+          <fieldset>
+            <legend><span class="n">1</span>Who are you booking for?</legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="radio" name="who" id="who-home" value="Homeowner" checked><span>My home</span></label>
+              <label class="choice"><input type="radio" name="who" id="who-landlord" value="Landlord"><span>A property I let</span></label>
+              <label class="choice"><input type="radio" name="who" id="who-manager" value="Property / block manager"><span>Property or block manager</span></label>
+              <label class="choice"><input type="radio" name="who" id="who-agent" value="Estate / letting agent"><span>Estate or letting agent</span></label>
+              <label class="choice"><input type="radio" name="who" id="who-solicitor" value="Solicitor / executor"><span>Solicitor or executor</span></label>
+              <label class="choice"><input type="radio" name="who" id="who-business" value="Business / other"><span>Business or other</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span class="n">2</span>What do you need?</legend>
+            <div class="choice-grid">
+              <label class="choice"><input type="checkbox" name="service" id="svc-regular" value="Regular maintenance"><span>Regular maintenance</span></label>
+              <label class="choice"><input type="checkbox" name="service" id="svc-tidy" value="One-off tidy-up"><span>One-off tidy-up</span></label>
+              <label class="choice"><input type="checkbox" name="service" id="svc-clear" value="Garden clearance"><span>Overgrown clearance</span></label>
+              <label class="choice"><input type="checkbox" name="service" id="svc-lawn" value="Lawn care / rescue"><span>Lawn care or rescue</span></label>
+              <label class="choice"><input type="checkbox" name="service" id="svc-hedge" value="Hedge & shrub trimming"><span>Hedges &amp; shrubs</span></label>
+              <label class="choice"><input type="checkbox" name="service" id="svc-leaf" value="Leaf clearance"><span>Leaf clearance</span></label>
+              <label class="choice"><input type="checkbox" name="service" id="svc-gutter" value="Gutters / pressure washing"><span>Gutters or pressure washing</span></label>
+              <label class="choice"><input type="checkbox" name="service" id="svc-grounds" value="Commercial grounds contract"><span>Grounds contract</span></label>
+            </div>
+            <div class="row-2">
+              <div class="field">
+                <label for="frequency">How often?</label>
+                <select id="frequency" name="frequency">
+                  <option>Just once</option>
+                  <option>Weekly</option>
+                  <option>Fortnightly</option>
+                  <option>Monthly</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="when">When would you like us to start?</label>
+                <select id="when" name="when">
+                  <option>As soon as possible</option>
+                  <option>Within 2 weeks</option>
+                  <option>This month</option>
+                  <option>I'm flexible</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span class="n">3</span>Where is it?</legend>
+            <div class="row-2">
+              <div class="field">
+                <label for="postcode">Postcode</label>
+                <input id="postcode" name="postcode" autocomplete="postal-code" placeholder="CM1 1AA" required>
+              </div>
+              <div class="field">
+                <label for="size">Rough size</label>
+                <select id="size" name="size">
+                  <option>Small (terrace or flat garden)</option>
+                  <option selected>Medium (typical semi or detached)</option>
+                  <option>Large garden</option>
+                  <option>Communal grounds or several sites</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="details">Tell us about the job</label>
+              <textarea id="details" name="details" placeholder="e.g. Back garden hasn't been touched since spring. Hedges along two sides, lawn about 10m x 8m, side access through a gate."></textarea>
+              <span class="hint">Photos help us price without a visit. You can send them on WhatsApp after you book.</span>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><span class="n">4</span>Your details</legend>
+            <div class="row-2">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+              </div>
+            </div>
+            <div class="row-2">
+              <div class="field">
+                <label for="email">Email <span class="hint">(optional)</span></label>
+                <input id="email" name="email" type="email" autocomplete="email">
+              </div>
+              <div class="field">
+                <label for="contact">Best way to reach you</label>
+                <select id="contact" name="contact">
+                  <option>WhatsApp</option>
+                  <option>Phone call</option>
+                  <option>Text</option>
+                  <option>Email</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="heard">How did you hear about us?</label>
+              <select id="heard" name="heard">
+                <option value="">Choose one</option>
+                <option>Google search or Maps</option>
+                <option>Facebook</option>
+                <option>Instagram</option>
+                <option>Recommended by someone</option>
+                <option>Saw you working nearby / leaflet</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <div class="form-submit">
+            <p class="error" id="form-error" role="alert" hidden></p>
+            <button class="btn btn--primary" type="submit" id="submit">Request my free quote</button>
+            <small>No obligation. We only use your details to reply about this job.</small>
+          </div>
+        </div>
+
+        <div class="done" id="form-done" hidden tabindex="-1">
+          <div class="big-tick" aria-hidden="true">✓</div>
+          <h2 id="done-title">Thanks, we've got your request</h2>
+          <p class="lede" id="done-text">We'll be in touch soon. To speed things up, send us your details and a few photos on WhatsApp.</p>
+          <a class="btn btn--green" id="wa-send" href="https://wa.me/447504548304" rel="noopener">Send on WhatsApp</a>
+          <div class="summary" id="summary"></div>
+        </div>
+      </form>
+
+      <aside class="aside">
+        <div class="aside-card">
+          <h3>Rather talk to us?</h3>
+          <p>Call or WhatsApp us directly.</p>
+          <a class="phone-big mono" href="tel:+447504548304" style="font-size:1.6rem;font-weight:700;color:var(--crimson);text-decoration:none">07504 548304</a>
+          <a href="mailto:info@newbloomgardens.co.uk">info@newbloomgardens.co.uk</a>
+        </div>
+        <div class="aside-card">
+          <h3>What happens next</h3>
+          <ul class="ticks">
+            <li>We reply with a price or a visit time</li>
+            <li>Fixed, itemised price, often from photos</li>
+            <li>Free site visit if we need one</li>
+            <li>Photo report after every visit</li>
+          </ul>
+        </div>
+        <div class="aside-card">
+          <h3>Insured and licensed</h3>
+          <p style="font-size:var(--fs-sm);color:var(--muted)">Public liability insurance. Upper Tier waste carrier, Environment Agency reg. no. <span class="mono">CBDU656246</span>.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="legal" style="border:0;padding:0">New Bloom Gardens is a trading style of Forum Services Limited, registered in England &amp; Wales, company no. [COMPANY NO.]. Registered office: 9 Hatchfields, Great Waltham, Chelmsford CM3 1AJ.</p>
+  </div>
+</footer>
+
+<nav class="action-bar" aria-label="Quick contact" style="grid-template-columns:1fr 1fr">
+  <a class="btn btn--ghost" href="tel:+447504548304">Call</a>
+  <a class="btn btn--green" href="https://wa.me/447504548304" rel="noopener">WhatsApp</a>
+</nav>
+
+<script src="book.js"></script>
+</body>
+</html>

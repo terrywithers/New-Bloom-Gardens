@@ -37,7 +37,7 @@ This line works for every type of customer:
 ### Weeks 2–4: Start the B2B pipeline
 4. **Build a list of 50 targets:** probate solicitors, block and property managers, and letting agents in your area. How to find them is in `03-b2b-outreach.md`.
 5. **Send 10 outreach emails a week** using the templates, and follow up after 5 working days.
-6. **Make a one-page "Commercial Services" PDF** listing insurance, RAMS, waste carrier licence, areas covered and photo reporting. Attach it to every outreach email.
+6. **Attach your Commercial Brochure** (already done, and it's strong) plus one anonymised completion report to every outreach email. See `05-audit-of-current-material.md` before sending any report as a sample.
 
 ### Weeks 2–12: Social media on autopilot
 7. **Post 3x a week** using the 30-day calendar in `04-social-content-calendar.md`. Batch-write a week of posts in one sitting.
@@ -45,7 +45,7 @@ This line works for every type of customer:
 9. **Set up a free Nextdoor business page** and ask happy customers to recommend you there.
 
 ### Month 2–3: Website update
-10. **Rebuild or refresh the website** to the structure in `02-website-seo.md`, with service pages and area pages. I can build this in this repository if you'd like.
+10. **Launch the new website** in `/website` (home, commercial and booking pages). See `website/README.md` for going live and connecting the form to your email. Add area pages later.
 
 ---
 
@@ -82,6 +82,7 @@ This line works for every type of customer:
 | `02-website-seo.md` | Website structure, page titles, keywords, copy to reuse |
 | `03-b2b-outreach.md` | Email templates for solicitors, block and property managers, letting agents |
 | `04-social-content-calendar.md` | 30 days of ready-to-post Facebook/Instagram content |
+| `05-audit-of-current-material.md` | Review of your existing brochure, reports, flyers, Google and Instagram, plus an upsell system |
 
 ## Things I still need from you
 - [x] Base town (Chelmsford) and phone number (07504 548304), now filled into the templates
