@@ -14,7 +14,7 @@ Reviewed: commercial brochure (PDF), two completion reports (PDF), services flye
 - Brochure: **04866832**
 - Completion reports: **16328264**
 
-Check Companies House and correct whichever is wrong. Commercial clients and tender panels do check.
+**Confirmed correct: 16328264.** Update the brochure, which still shows 04866832. The new website uses 16328264.
 
 ### 3. Website contact details don't match the rest of the brand
 The current site shows two phone numbers and `fbgardensuk@gmail.com`. Everything else uses **07504 548304** and **info@newbloomgardens.co.uk**. Use one number and one email everywhere: site, Google, Facebook, Instagram and directories. Mismatches hurt Google rankings and confuse customers.

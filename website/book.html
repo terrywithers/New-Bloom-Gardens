@@ -40,8 +40,10 @@
     </div>
 
     <div class="book-layout">
-      <!-- To receive submissions by email, set data-endpoint to a Formspree form URL (see README). -->
-      <form class="form" id="booking" name="booking" method="POST" data-endpoint="" novalidate>
+      <!-- Submissions go to Netlify Forms (data-endpoint="netlify"). Set it to a Formspree URL instead if hosting elsewhere, or "" for WhatsApp only. -->
+      <form class="form" id="booking" name="booking" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-endpoint="netlify" novalidate>
+        <input type="hidden" name="form-name" value="booking">
+        <p hidden><label>Leave this empty <input name="bot-field" id="bot-field"></label></p>
         <div id="form-body" class="stack" style="gap:28px">
           <fieldset>
             <legend><span class="n">1</span>Who are you booking for?</legend>
@@ -198,7 +200,7 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p class="legal" style="border:0;padding:0">New Bloom Gardens is a trading style of Forum Services Limited, registered in England &amp; Wales, company no. [COMPANY NO.]. Registered office: 9 Hatchfields, Great Waltham, Chelmsford CM3 1AJ.</p>
+    <p class="legal" style="border:0;padding:0">New Bloom Gardens is a trading style of Forum Services Limited, registered in England &amp; Wales, company no. 16328264. Registered office: 9 Hatchfields, Great Waltham, Chelmsford CM3 1AJ.</p>
   </div>
 </footer>
 

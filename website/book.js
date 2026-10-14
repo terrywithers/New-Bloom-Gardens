@@ -21,9 +21,9 @@
     var services = Array.prototype.map.call(form.querySelectorAll('input[name=service]:checked'), function (c) { return c.value; });
     return {
       who: who ? who.value : '',
-      services: services.join(', ') || 'Not specified',
+      service: services.join(', ') || 'Not specified',
       frequency: value('frequency'),
-      start: value('when'),
+      when: value('when'),
       postcode: value('postcode').toUpperCase(),
       size: value('size'),
       details: value('details'),
@@ -41,8 +41,8 @@
       'Name: ' + d.name,
       'Phone: ' + d.phone + (d.email ? '\nEmail: ' + d.email : ''),
       'Booking for: ' + d.who,
-      'Services: ' + d.services,
-      'How often: ' + d.frequency + ' | Start: ' + d.start,
+      'Services: ' + d.service,
+      'How often: ' + d.frequency + ' | Start: ' + d.when,
       'Postcode: ' + d.postcode + ' | Size: ' + d.size,
       d.details ? 'Details: ' + d.details : '',
       'Contact by: ' + d.contact + (d.heard ? ' | Heard via: ' + d.heard : '')
@@ -90,11 +90,24 @@
     var btn = document.getElementById('submit');
     btn.disabled = true;
     btn.textContent = 'Sending…';
-    fetch(endpoint, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify(Object.assign({ _subject: 'Quote request: ' + d.name + ', ' + d.postcode }, d))
-    }).then(function (res) {
+    var request = endpoint === 'netlify'
+      ? {
+          url: '/',
+          options: {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new URLSearchParams(Object.assign({ 'form-name': 'booking', 'bot-field': value('bot-field') }, d)).toString()
+          }
+        }
+      : {
+          url: endpoint,
+          options: {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify(Object.assign({ _subject: 'Quote request: ' + d.name + ', ' + d.postcode }, d))
+          }
+        };
+    fetch(request.url, request.options).then(function (res) {
       if (!res.ok) throw new Error('status ' + res.status);
       showDone(d, true);
     }).catch(function () {

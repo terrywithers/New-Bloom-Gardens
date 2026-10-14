@@ -10,27 +10,26 @@ Three pages, one stylesheet, no build step:
 | `style.css` | All styling. One font (Poppins), brand crimson `#b83555` and green `#628052` |
 | `img/` | Photos and logo taken from the brochure and completion reports |
 
-## Before it goes live
-1. **Company number.** Replace `[COMPANY NO.]` in the footer of all three pages. The brochure says `04866832` and the completion reports say `16328264`, so check which is right on Companies House.
-2. **Facebook link.** In `index.html`, replace `https://www.facebook.com/` with your page's real address.
-3. **Photo permission.** The before/after photos come from client completion reports. Check the clients are happy for them to be used. No names or addresses are shown.
-4. **Connect the form to your email** (below).
+## Status
+- [x] Company number (16328264) added to every footer
+- [x] Facebook link added
+- [x] Photo permission confirmed
+- [x] Booking form connected to Netlify Forms. Requests are emailed to you once hosted on Netlify (below).
 
-## Getting booking requests by email (free)
-At the moment, when someone fills in the form, it gives them a pre-filled WhatsApp message to send you. That works with no setup. To also get every request by email:
+## Why not Google Sites?
+Google Sites doesn't let you upload your own pages, fonts or forms. Custom code can only go in small embedded boxes. To get this design, the booking form and one consistent font, the site needs a proper (free) host. **Netlify** is the simplest. Your domain stays the same; only where it points changes.
 
-1. Sign up free at **formspree.io** with `info@newbloomgardens.co.uk`. The free plan covers 50 submissions a month.
-2. Create a form. Formspree gives you a URL like `https://formspree.io/f/abcdwxyz`.
-3. In `book.html`, find `data-endpoint=""` and paste the URL between the quotes.
+## Going live on Netlify (free, about 20 minutes)
+1. Go to **app.netlify.com** and sign up with GitHub.
+2. **Add new site → Import an existing project → GitHub →** choose `New-Bloom-Gardens`. The settings are already in `netlify.toml`, so just click **Deploy**.
+3. You get a test address like `newbloom-xyz.netlify.app`. Check it on your phone and send a test booking.
+4. **Booking emails:** in Netlify go to **Forms → booking → Form notifications → Add notification → Email** and enter `info@newbloomgardens.co.uk`. The free plan includes 100 submissions a month.
+5. **Point your domain at Netlify:** **Domain management → Add a domain →** `newbloomgardens.co.uk`. Netlify shows the DNS records to set.
+   - Find where the domain is registered. Google Sites domains are often with **Squarespace Domains** (formerly Google Domains), GoDaddy or 123-reg. Log in there, open DNS settings and **replace** the `www` record (currently pointing at `ghs.googlehosted.com`) with the one Netlify gives you, plus the record for the bare domain.
+   - Netlify adds the free HTTPS certificate automatically, usually within an hour.
+6. Once the new site loads on your domain, **unpublish the old Google Site** (Google Sites → Settings → Custom domains → remove), so Google doesn't index two versions.
 
-From then on each request arrives in your inbox. If Formspree is ever down, the customer still gets the WhatsApp option, so no lead is lost.
-
-## Hosting
-Any static host works. Free options:
-- **Netlify** (drag and drop the `website` folder at app.netlify.com/drop), then point `newbloomgardens.co.uk` at it
-- **Cloudflare Pages** or **GitHub Pages**, both of which can publish straight from this repository
-
-If your current site is on Wix, Squarespace or GoDaddy, you'd move the domain's DNS to the new host. Do this at a quiet time, and keep the old site until the new one is confirmed working.
+Every change pushed to this repository then updates the live site automatically, so when you ask me to change something, it goes live as soon as it's pushed.
 
 ## After launch
 - Add the site to **Google Search Console** and submit `https://www.newbloomgardens.co.uk/`
