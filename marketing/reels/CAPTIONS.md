@@ -40,3 +40,9 @@ Short on time? We do leaf clearance from £60 and gutter clearing from £80. Wha
 Kept grounds. Kept promises. Same team every visit, a fixed price before we start, and a photo report after every job.
 Homes, landlords and managed properties across Chelmsford, Essex and East London.
 #gardenmaintenance #groundsmaintenance #chelmsford #propertymanagement #essexbusiness
+
+**13 – Winter services (falling snow)**
+Winter's on its way ❄️ Get your outdoor space sorted before the weather turns.
+Gutter clearing & fascia wash from £80 · leaf clearance from £60 · hedge cutting, moss & driveway treatment, and commercial gritting contracts.
+Call or WhatsApp 07504 548304.
+#chelmsford #wintergarden #guttercleaning #leafclearance #essexbusiness #gardenmaintenance
