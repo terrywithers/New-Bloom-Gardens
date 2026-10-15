@@ -71,14 +71,14 @@ Reviews are the biggest ranking factor you control. **Aim for 25+ in 90 days, th
 Right after a job when the customer is happy, while they're still looking at the garden. Ask the same day, by text or WhatsApp.
 
 ### Text/WhatsApp script (existing customers)
-> Hi [Name], it's [Your name] from New Bloom Gardens. Thanks again for having us look after your garden. We're a small local business and Google reviews really help us. If you have 30 seconds, would you mind leaving us a quick one? [REVIEW LINK] Thank you!
+> Hi [Name], it's [Your name] from New Bloom Gardens. Thanks again for having us look after your garden. We're a small local business and Google reviews really help us. If you have 30 seconds, would you mind leaving us a quick one? https://g.page/r/CbyCRGgCzelEEBM/review Thank you!
 
 ### Commercial clients (email)
 > Subject: A quick favour
 >
 > Hi [Name],
 >
-> Thanks for continuing to trust us with [site name]. If you've been happy with our service, a short Google review would really help other managers find us: [REVIEW LINK]
+> Thanks for continuing to trust us with [site name]. If you've been happy with our service, a short Google review would really help other managers find us: https://g.page/r/CbyCRGgCzelEEBM/review
 >
 > Even one sentence helps. Many thanks,
 > [Your name]

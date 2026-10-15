@@ -95,7 +95,7 @@ Swap in your actual town hashtags.
 > This made our week 🥰
 > "[Paste a real Google review]" — [First name], [Town]
 >
-> Thank you! If we've looked after your garden, we'd love a review too 👉 [REVIEW LINK]
+> Thank you! If we've looked after your garden, we'd love a review too 👉 https://g.page/r/CbyCRGgCzelEEBM/review
 
 **Fri: 💡 Tip**
 > 🌱 3 jobs to do in your garden this month

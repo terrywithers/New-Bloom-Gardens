@@ -265,12 +265,12 @@ Just ask them to mention your name when they book.
 
 ## Reviews
 
-Get your review link from your Google profile (Ask for reviews → copy link) and paste it where it says [REVIEW LINK].
+Your review link is already filled in. Just change [Name] and anything else in square brackets.
 
 **Review request: text or WhatsApp** _(Send the same day as the job)_
 
 ```
-Hi [Name], thanks for having us today! If you're happy with the work, would you mind leaving us a quick Google review? It really helps a small local business. It'd be great if you could mention what we did and where (e.g. hedge cutting in Broomfield). [REVIEW LINK] Thanks, [Your name], New Bloom Gardens
+Hi [Name], thanks for having us today! If you're happy with the work, would you mind leaving us a quick Google review? It really helps a small local business. It'd be great if you could mention what we did and where (e.g. hedge cutting in Broomfield). https://g.page/r/CbyCRGgCzelEEBM/review Thanks, [Your name], New Bloom Gardens
 ```
 
 **Review request: commercial email** _(Email to managers and solicitors)_
@@ -280,7 +280,7 @@ Subject: A quick favour
 
 Hi [Name],
 
-Thanks for continuing to trust us with [site]. If you've been happy with our service, a short Google review would really help other managers find us: [REVIEW LINK]
+Thanks for continuing to trust us with [site]. If you've been happy with our service, a short Google review would really help other managers find us: https://g.page/r/CbyCRGgCzelEEBM/review
 
 Even a sentence or two helps. Many thanks,
 [Your name]
@@ -290,7 +290,7 @@ New Bloom Gardens · 07504 548304
 **Gentle reminder (a week later)** _(Only once, only if no review yet)_
 
 ```
-Hi [Name], just a quick nudge in case the review link got lost: [REVIEW LINK] No worries at all if not. Thanks again! [Your name]
+Hi [Name], just a quick nudge in case the review link got lost: https://g.page/r/CbyCRGgCzelEEBM/review No worries at all if not. Thanks again! [Your name]
 ```
 
 **Reply to a 5-star review** _(Edit [Name], job and village each time)_
