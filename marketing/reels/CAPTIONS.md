@@ -43,6 +43,6 @@ Homes, landlords and managed properties across Chelmsford, Essex and East London
 
 **13 – Winter services (falling snow)**
 Winter's on its way ❄️ Get your outdoor space sorted before the weather turns.
-Gutter clearing & fascia wash from £80 · leaf clearance from £60 · hedge cutting, moss & driveway treatment, and commercial gritting contracts.
-Call or WhatsApp 07504 548304.
+Gutter clearing and fascia wash, hedge cutting, leaf clearance, moss and driveway treatment, and commercial gritting contracts across Chelmsford and the surrounding villages.
+Free quotes: call or WhatsApp 07504 548304.
 #chelmsford #wintergarden #guttercleaning #leafclearance #essexbusiness #gardenmaintenance
