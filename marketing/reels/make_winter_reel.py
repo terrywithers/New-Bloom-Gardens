@@ -90,16 +90,61 @@ def place(base, L, alpha=1.0, dx=0, dy=0, scale=1.0):
     if alpha < 1: L = L.copy(); L.putalpha(L.getchannel("A").point(lambda v: int(v * alpha)))
     return Image.alpha_composite(base, L)
 
-DUR = 13.0
+# One card per service
+def wrap(d, txt, font, maxw):
+    words, lines, cur = txt.split(), [], ""
+    for w_ in words:
+        test = (cur + " " + w_).strip()
+        if d.textlength(test, font=font) <= maxw: cur = test
+        else: lines.append(cur); cur = w_
+    return lines + [cur]
+def card_layer(i, name, price):
+    def fn(d, L):
+        x0, x1, y0, y1 = 90, W - 90, 700, 1380
+        sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle([x0, y0 + 18, x1, y1 + 18], 48, fill=(60, 80, 90, 70))
+        L.alpha_composite(sh.filter(ImageFilter.GaussianBlur(18)))
+        d.rounded_rectangle([x0, y0, x1, y1], 48, fill=(255, 255, 255, 240))
+        centered(d, y0 + 70, f"WINTER SERVICE {i + 1} OF {len(ITEMS)}", F(600, 34), GREEN, spacing=4)
+        size = 84
+        while len(wrap(d, name, F(700, size), x1 - x0 - 120)) > 2: size -= 2
+        f = F(700, size); lines = wrap(d, name, f, x1 - x0 - 120)
+        y = y0 + 150 + (2 - len(lines)) * 50
+        for ln in lines: centered(d, y, ln, f, CRIMSON); y += int(size * 1.2)
+        d.rectangle([W / 2 - 50, y + 30, W / 2 + 50, y + 38], fill=(201, 220, 188))
+        fp = F(700, 64); pw = d.textlength(price, font=fp); py = y1 - 190
+        d.rounded_rectangle([W / 2 - pw / 2 - 50, py, W / 2 + pw / 2 + 50, py + 112], 56, fill=CRIMSON)
+        d.text((W / 2 - pw / 2, py + 16), price, font=fp, fill=(255, 255, 255))
+    return layer(fn)
+CARDS = [card_layer(i, n, p) for i, (n, p) in enumerate(ITEMS)]
+SMALL_LOGO = layer(lambda d, L: (lambda lg: L.paste(lg, ((W - lg.width) // 2, 230), lg))(LOGO.resize((int(LOGO.width * 300 / LOGO.width), int(LOGO.height * 300 / LOGO.width)))))
+def _wsmall(d, L):
+    f = F(700, 92); txt = "WINTER"; x = (W - d.textlength(txt, font=f)) / 2
+    d.text((x + 4, 470 + 4), txt, font=f, fill=(255, 255, 255)); d.text((x, 470), txt, font=f, fill=CRIMSON)
+WINTER_SMALL = layer(_wsmall)
+
+INTRO, EACH, OUTRO = 2.8, 2.3, 4.2
+DUR = INTRO + EACH * len(CARDS) + OUTRO
+def base(t):
+    fr = Image.alpha_composite(bg, snow(FAR, t, 0.8)); return Image.alpha_composite(fr, snow(MID, t))
 def frame(t):
-    fr = Image.alpha_composite(bg, snow(FAR, t, 0.8)); fr = Image.alpha_composite(fr, snow(MID, t))
-    a = ease_out((t - 0.2) / 0.8); fr = place(fr, LOGO_L, a, dy=-40 * (1 - a))
-    a = back_out((t - 0.8) / 0.7); fr = place(fr, WINTER_L, max(0, min(1, (t - 0.8) / 0.3)), dy=-120 * (1 - a))
-    a = ease_out((t - 1.6) / 0.6); fr = place(fr, SUB_L, a, dy=30 * (1 - a))
-    for i, P in enumerate(PILLS):
-        a = ease_out((t - 2.3 - i * 0.4) / 0.55); fr = place(fr, P, a, dx=-W * 0.6 * (1 - a))
-    a = ease_out((t - 4.6) / 0.6)
-    fr = place(fr, PHONE_L, a, dy=40 * (1 - a))
+    fr = base(t)
+    if t < INTRO:
+        a = ease_out((t - 0.2) / 0.8); fr = place(fr, LOGO_L, a, dy=-40 * (1 - a))
+        a = back_out((t - 0.8) / 0.7); fr = place(fr, WINTER_L, max(0, min(1, (t - 0.8) / 0.3)), dy=-120 * (1 - a))
+        a = ease_out((t - 1.6) / 0.6); fr = place(fr, SUB_L, a, dy=30 * (1 - a))
+        out = ease_out((t - (INTRO - 0.35)) / 0.35)
+        if out > 0: fr = Image.blend(fr, base(t).convert("RGBA"), out)
+    elif t < INTRO + EACH * len(CARDS):
+        k = int((t - INTRO) / EACH); lt = t - INTRO - k * EACH
+        hdr = ease_out((t - INTRO) / 0.4)
+        fr = place(fr, SMALL_LOGO, hdr); fr = place(fr, WINTER_SMALL, hdr)
+        a_in = ease_out(lt / 0.4); a_out = ease_out((lt - (EACH - 0.35)) / 0.35)
+        fr = place(fr, CARDS[k], 1.0, dx=W * (1 - a_in) - W * a_out)
+    else:
+        lt = t - INTRO - EACH * len(CARDS)
+        full = Image.alpha_composite(base(t), LOGO_L)
+        for Lr in [WINTER_L, SUB_L] + PILLS + [PHONE_L]: full = Image.alpha_composite(full, Lr)
+        fr = Image.blend(fr, full, ease_out(lt / 0.5))
     fr = Image.alpha_composite(fr, snow(NEAR, t, 2.5))
     return fr.convert("RGB")
 
