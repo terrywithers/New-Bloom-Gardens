@@ -269,3 +269,16 @@ figure { margin: 0; }
 .related { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
 .related a { display: inline-block; border: 1.5px solid var(--line); border-radius: 999px; padding: 8px 16px; font-size: var(--fs-sm); color: var(--ink); text-decoration: none; background: var(--paper); }
 .related a:hover { border-color: var(--crimson); color: var(--crimson); }
+
+/* Reviews */
+.reviews { display: grid; gap: 20px; }
+@media (min-width: 760px) {
+  .reviews { grid-template-columns: repeat(6, 1fr); }
+  .reviews .review { grid-column: span 2; }
+  .reviews .review:nth-child(4) { grid-column: 2 / span 2; }
+}
+.review { margin: 0; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; display: grid; gap: 14px; align-content: start; min-width: 0; }
+.review .stars { color: #f4b400; font-size: 1.2rem; letter-spacing: 2px; }
+.review blockquote { margin: 0; font-size: var(--fs-md); line-height: 1.6; }
+.review figcaption { display: grid; gap: 2px; font-size: var(--fs-sm); }
+.review figcaption span { color: var(--muted); font-size: var(--fs-xs); }
