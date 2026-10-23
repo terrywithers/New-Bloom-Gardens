@@ -1,3 +1,6 @@
 # Netlify: publish the static site in /website (no build step).
 [build]
   publish = "website"
+  # Only redeploy when the website itself changes. Every production deploy costs
+  # credits, so pushes that only touch marketing/ (reels, docs) are skipped.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- website/"
