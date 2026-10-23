@@ -282,3 +282,15 @@ figure { margin: 0; }
 .review blockquote { margin: 0; font-size: var(--fs-md); line-height: 1.6; }
 .review figcaption { display: grid; gap: 2px; font-size: var(--fs-sm); }
 .review figcaption span { color: var(--muted); font-size: var(--fs-xs); }
+
+/* Winter banner (seasonal) — scrolling bar above the header */
+.winter-banner { display: block; overflow: hidden; background: #2f4a3a; color: #fff; text-decoration: none; font-size: var(--fs-sm); font-weight: 600; padding-block: 9px; position: relative; }
+.winter-banner::before, .winter-banner::after { content: ""; position: absolute; top: 0; bottom: 0; width: 40px; z-index: 1; pointer-events: none; }
+.winter-banner::before { left: 0; background: linear-gradient(90deg, #2f4a3a, transparent); }
+.winter-banner::after { right: 0; background: linear-gradient(-90deg, #2f4a3a, transparent); }
+.winter-track { display: flex; width: max-content; animation: winter-scroll 38s linear infinite; }
+.winter-banner:hover .winter-track, .winter-banner:focus-visible .winter-track { animation-play-state: paused; }
+.winter-run { display: flex; align-items: center; gap: 22px; padding-right: 22px; white-space: nowrap; }
+.winter-run .flake { color: #bfe0f0; }
+@keyframes winter-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .winter-track { animation: none; } .winter-run[aria-hidden] { display: none; } .winter-banner { overflow-x: auto; } }
