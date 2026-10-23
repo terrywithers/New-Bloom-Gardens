@@ -46,3 +46,9 @@ Winter's on its way ❄️ Get your outdoor space sorted before the weather turn
 Gutter clearing and fascia wash, hedge cutting, leaf clearance, moss and driveway treatment, and commercial gritting contracts across Chelmsford and the surrounding villages.
 Free quotes: call or WhatsApp 07504 548304.
 #chelmsford #wintergarden #guttercleaning #leafclearance #essexbusiness #gardenmaintenance
+
+**14 – Leaf clearance**
+Leaves piling up? 🍂 We'll clear them.
+Lawns, beds, borders, paths and patios cleared, with every leaf bagged and taken away. Leaving leaves on the lawn blocks the light and leaves yellow patches by spring.
+Free quotes across Chelmsford: call or WhatsApp 07504 548304.
+#leafclearance #autumngarden #gardenmaintenance #chelmsfordgardener #essexgardener #chelmsford #lawncare #gardentidy
